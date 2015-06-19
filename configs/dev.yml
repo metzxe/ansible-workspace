@@ -1,0 +1,6 @@
+# dev.yml
+---
+
+php_memory_limit: 512M
+php_upload_max_filesize: 500M
+php_max_file_uploads: 20

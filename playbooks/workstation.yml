@@ -1,0 +1,10 @@
+---
+- hosts: all
+  sudo: true
+
+  vars_files:
+    - configs/all.yml
+
+  roles:
+    - 'vendors/iterateco/ansible/roles/baseinstall'
+    - 'vendors/iterateco/ansible/roles/php'
